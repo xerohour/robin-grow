@@ -77,7 +77,7 @@ function update() {
 if(GM_getValue("chatName") != name) {
     GM_setValue("chatName", name);
     setTimeout(function() {
-            $(".text-counter-input").val("[Robin-Grow] I automatically voted to grow, and so can you! http://redd.it/4cwk2s !").submit();
+            $(".text-counter-input").val("through growth we gain members, through memebers we gain shit-posts, through shit-posts we gain chaos, through chaos we gain order").submit();
         }, 10000);
 }
 
